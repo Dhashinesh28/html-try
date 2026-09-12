@@ -1,0 +1,121 @@
+Day-1
+Html
+ HTML stands for HyperText Markup Language. It is used to create the structure and content of web pages. HTML is the basic skeleton of a website.
+
+<!DOCTYPE html> ->It tells the browser that the document uses HTML5.
+<html>-> It is the root element. 
+<head>-> It contains page information such as the title and CSS links. 
+<body>->It contains the visible page content.
+<h1> to <h6> ->They are heading elements. <h1> is the highest-level heading and <h6> is a lower-level heading.
+<p>->It defines a paragraph.
+<br>->It inserts a line break.
+<hr>->It represents a thematic break, commonly displayed as a horizontal line.
+<strong>->indicates strong importance
+<b>->visually draws attention to text without adding the same semantic importance.
+<em>->indicates emphasis.
+<i>->is generally used for text in an alternate voice or style.
+<mark>->highlights text.
+<small>->represents side comments or smaller text.
+
+LINKS
+<a>->The anchor element creates a hyperlink. The href attribute specifies its destination.
+Example=<a href="https://www.amazon.in/">amazon</a>
+
+IMAGES
+<img>->It displays an image. The src attribute specifies the image location and alt provides alternative text.
+Example=<img src="C:\Uss\Dhaju\Downloads\use context expamle image.png" height="500px" width="500px" alt="try again"> 
+
+LISTS
+<li> defines a list item.
+<ul>->creates an unordered list
+Example:
+<ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+</ul>
+<ol>->creates an ordered list
+<ol>
+         <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+</ol>
+
+SEMANTIC HTML
+      1.Semantic HTML uses elements that clearly describe their meaning and purpose, such as 
+      <header>, <nav>, <main>, <section>, <article>, <aside>, and <footer>.
+      2.It improves accessibility, SEO, readability, and maintainability.
+
+<header>->It represents introductory or navigational content for a page or section.
+<nav>->It represents a section containing navigation links.
+<main>->It contains the main content of the document.
+<section>->It groups related content into a meaningful section.
+<article>->It represents self-contained content that can stand independently, such as an article or post.
+<footer>->It represents footer information for a page or section.
+
+NON-SEMANTIC HTML
+<div>->It is a generic container used mainly for grouping and styling content.
+
+HTML TABLES
+<table>->It creates a table for displaying data in rows and columns.
+<tr>->defines a row
+<th>->defines a header cell
+<td>->defines a data cell.
+
+day 2
+HTML FORMS
+<form>->It groups controls used to collect and submit user information.
+<label>->It provides a text label for a form control and improves usability and accessibility.
+<input>->It creates an input control. Common types include text, email, password, number, date, radio, checkbox, file, and submit.
+<textarea>->It allows users to enter multi-line text.
+<select>->creates a dropdown.
+<option>->defines an item in that dropdown.
+required->required makes a value necessary.
+disabled->disabled prevents interaction.
+minlength, maxlength->They provide validation rules for values.
+
+day-3
+Subscript Tag –> The <sub> tag is used to display text slightly below the normal text line.
+Example->H<sub>2</sub>O => H₂O
+Superscript Tag –>The <sup> tag is used to display text slightly above the normal text line.
+Example->X<sup>2</sup> => X²
+Delete Tag->The <del> tag represents text that has been deleted or removed from a document. Browsers normally display it with a strikethrough.
+Insert Tag –>The <ins> tag represents text that has been newly added or inserted into a document.Browsers normally display inserted text with an underline.
+Strikeout Tag –>The <s> tag represents text that is no longer relevant, accurate, or applicable.
+Figure caption->The <figcaption> tag is used to provide a caption or description for the content inside a <figure> element.
+
+MEDIA Tag
+<audio>->The <audio> tag is used to embed audio content such as music, voice recordings, or sound into a webpage.
+if you need you can use->controls,autoplay,muted,loop
+controls->Displays audio controls such as play, pause, volume, and progress.
+autoplay->Automatically starts playing the audio when the page loads.
+muted->Starts the audio with the sound turned off.
+loop->Automatically repeats the audio after it finishes.
+
+<Video>->The <video> tag is used to embed and display video content directly on a webpage.
+if you need you can use->controls,autoplay,muted,loop
+
+
+Difference Between HTML VS HTML5
+
+HTML
+1.Older versions of HTML
+2.Limited native multimedia support
+3.Fewer semantic elements
+4.Often relied on plugins for multimedia
+5.Older form capabilities
+
+HTML5
+1.Modern HTML standard
+2.Native <audio> and <video>
+3.Many semantic elements
+4.Multimedia can be handled natively
+5.Improved input types
+
+Simple Way
+HTML = Structure of a webpage
+HTML5 = Modern HTML with better structure, multimedia, forms, and web features
+
+
+day-4
+Real website
